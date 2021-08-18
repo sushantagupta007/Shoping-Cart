@@ -51,7 +51,7 @@ function getInputValue(totalAmount){
 }
 
 function calculateTotal (){
-    const phoneTotal = getInputValue('input')*1259; 
+    const phoneTotal = getInputValue('input')*1259
     const coverTotal = getInputValue('input1')*59; 
     const subtotal = phoneTotal+coverTotal;
     const tax= subtotal/10;
@@ -59,8 +59,5 @@ function calculateTotal (){
     document.getElementById('Subtotal').innerText = subtotal;
     document.getElementById('Tax').innerText = tax;
     document.getElementById('totalprice').innerText = totalprice;
-    return totalprice; 
-    
-
 }
 

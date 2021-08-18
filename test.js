@@ -21,4 +21,13 @@ function amount(id){
    
 }
 
-document.get
+const itemArray = document.getElementsByClassName('itemprice');
+console.log(itemArray);
+let itemValue = 0;
+for(const item of itemArray){
+    const itemText = item.innerText;
+    itemValue = itemValue+itemText
+    console.log(itemVal);
+}
+
+
